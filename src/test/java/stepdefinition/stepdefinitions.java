@@ -60,7 +60,7 @@ public void user_navigates_to_the_url_something_and_prerequisites_are_set(String
 
     @And("^Youraccount should have 17 links$")
     public void youraccount_should_have_17_links() throws Throwable {
-    	Assert.assertTrue(hp.youraccountlinks()==17);
+    	Assert.assertTrue(hp.youraccountlinks()==18);
     }
 
     @And("^Header should have 5 links$")
