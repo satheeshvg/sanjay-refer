@@ -1,0 +1,5 @@
+pageobjects\iphonelandingpage.class
+pageobjects\Homepage.class
+pageobjects\mainpage.class
+resources\driverinit.class
+resources\ExtentReport.class

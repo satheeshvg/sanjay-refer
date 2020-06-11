@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-11T21:20:36Z" name="Default suite" finished-at="2020-06-11T21:21:06Z" duration-ms="29828">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.testrunner@f0c8a99]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-06-11T21:20:36Z" name="Default test" finished-at="2020-06-11T21:21:06Z" duration-ms="29828">
+      <class name="cucumberoptions.testrunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumberoptions.testrunner@f0c8a99]" started-at="2020-06-12T02:50:36Z" name="setUpClass" finished-at="2020-06-12T02:50:36Z" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.testrunner@f0c8a99]" started-at="2020-06-12T02:50:37Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-12T02:50:50Z" duration-ms="12920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Homepage Test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.testrunner@f0c8a99]" started-at="2020-06-12T02:50:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-12T02:51:06Z" duration-ms="16251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphonelandingpage Test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberoptions.testrunner@f0c8a99]" started-at="2020-06-12T02:51:06Z" name="tearDownClass" finished-at="2020-06-12T02:51:06Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberoptions.testrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
