@@ -90,7 +90,7 @@ public void user_navigates_to_the_url_something_and_prerequisites_are_set(String
 
     @Then("^iphonelanding page should have 12 checkbox in brand column$")
     public void iphonelanding_page_should_have_12_checkbox_in_brand_column() throws Throwable {
-    	Assert.assertTrue(ip.brandcheckboxcount()==12);
+    	Assert.assertTrue(ip.brandcheckboxcount()==13);
 		
     }
 
