@@ -6,4 +6,16 @@
       <class name="cucumberoptions.testrunner"/>
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="cucumberoptions.testrunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="writeExtentReport"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumberoptions.testrunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

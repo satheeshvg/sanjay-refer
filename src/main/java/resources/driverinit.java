@@ -26,16 +26,16 @@ public class driverinit {
 		prop=new Properties();
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\information.properties");
 		prop.load(fis);
-		if(System.getProperty("browser").contains("chrome"))
+		if(prop.getProperty("browser").contains("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver83.exe");
 			 driver = new ChromeDriver();
 		}
-		if(System.getProperty("browser").contains("Internet"))
+		if(prop.getProperty("browser").contains("Internet"))
 		{
 			System.out.println("IT");
 		}
-		if(System.getProperty("browser").contains("firefox"))
+		if(prop.getProperty("browser").contains("firefox"))
 		{
 			System.out.println("firefox");
 		}

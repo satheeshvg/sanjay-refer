@@ -29,7 +29,7 @@ public class Homepage extends driverinit {
 	
 @FindBy(xpath="//a[@id='nav-link-accountList']")
 private WebElement signin;
-@FindBy(xpath="//div[@id='nav-al-title']")
+@FindBy(xpath="//span[text()='Your Lists']")
 private WebElement yourlist;
 @FindBy(xpath="//div[text()='Your Account']")
 private WebElement youraccount;

@@ -19,7 +19,7 @@ import cucumber.api.java.After;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features="src/test/java/feature",glue="stepdefinition",plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"})
+@CucumberOptions(features= {"src/test/java/feature/HomepageTest.feature"},glue="stepdefinition",plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"})
 
 public class testrunner extends AbstractTestNGCucumberTests{
 
